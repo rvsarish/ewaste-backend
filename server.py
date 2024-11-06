@@ -5,7 +5,7 @@ import cv2
 
 app = Flask(__name__)
 
-# Load the pre-trained model
+# Load the pre-trained modelI
 model = load_model('ewaste_classification_model.h5')
 
 # Define the categories (ensure these match your training labels)
